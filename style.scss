@@ -128,7 +128,7 @@ td {
   position: absolute;
   /* top: 285px; */
   bottom: 17em; // for 4 weeeks months
-  bottom: 20em; // for 5 weeeks months
+  // bottom: 20em; // for 5 weeeks months
 }
 
 .ring-left {
@@ -164,7 +164,12 @@ td {
   font-size: 0.7em;
 }
 
-//  superscript text
+// superscript text
 sup {
   font-size: x-large;
+}
+
+// strikethrough text
+.past-day {
+  text-decoration: line-through;
 }

@@ -133,7 +133,6 @@ td {
   position: absolute;
   /* top: 285px; */
   bottom: 17em;
-  bottom: 20em;
 }
 
 .ring-left {
@@ -171,5 +170,9 @@ td {
 
 sup {
   font-size: x-large;
+}
+
+.past-day {
+  text-decoration: line-through;
 }
 /*# sourceMappingURL=style.css.map */
