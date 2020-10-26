@@ -59,7 +59,7 @@ td {
 .month {
   font-size: 4em;
   line-height: 1em;
-  text-transform: lowercase;
+  text-transform: capitalize;
 }
 
 .hours {
@@ -75,7 +75,7 @@ td {
   box-shadow: 0 2px 1px rgba(0, 0, 0, 0.2), 0 3px 1px #fff;
   color: #555;
   display: inline-block;
-  padding: 2em;
+  padding: 1.9em;
 }
 
 .calendar thead {
@@ -96,6 +96,14 @@ td {
 
 .current-day {
   color: #e66b6b;
+  background: #e6e6e6;
+  border-radius: 10%;
+  font-weight: 900;
+  box-shadow: 0 2px 1px rgba(0, 0, 0, 0.2), 0 3px 1px #fff;
+}
+
+.current-day:hover {
+  color: #5cc8d7ff !important;
 }
 
 .prev-month,
