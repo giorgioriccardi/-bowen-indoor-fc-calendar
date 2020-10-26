@@ -1,0 +1,5 @@
+# Force SSL on Your Domain
+
+RewriteCond %{HTTP_HOST} bowenifc\.com [NC]
+RewriteCond %{SERVER_PORT} 80
+RewriteRule ^(.*)$ https://www.bowenifc.com/$1 [R,L]
