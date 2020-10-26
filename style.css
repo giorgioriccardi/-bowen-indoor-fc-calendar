@@ -4,7 +4,7 @@
 
 body {
   background: #ccc;
-  font: 87.5%/1.5em "Lato", sans-serif;
+  font: 95.5%/1.5em "Lato", sans-serif;
   /* margin: 0; */
   display: -webkit-box;
   display: -ms-flexbox;
@@ -63,9 +63,9 @@ td {
 }
 
 .day {
-  font-size: 8em;
+  font-size: 4em;
   font-weight: 900;
-  line-height: 1em;
+  line-height: 2;
 }
 
 .month {
@@ -133,6 +133,7 @@ td {
   position: absolute;
   /* top: 285px; */
   bottom: 17em;
+  bottom: 20em;
 }
 
 .ring-left {
@@ -166,5 +167,9 @@ td {
 
 .medium-text {
   font-size: 0.7em;
+}
+
+sup {
+  font-size: x-large;
 }
 /*# sourceMappingURL=style.css.map */

@@ -6,7 +6,7 @@ $debug-color: #008080;
 
 body {
   background: #ccc;
-  font: 87.5%/1.5em "Lato", sans-serif;
+  font: 95.5%/1.5em "Lato", sans-serif;
   /* margin: 0; */
 
   display: flex;
@@ -58,9 +58,9 @@ td {
 }
 
 .day {
-  font-size: 8em;
+  font-size: 4em;
   font-weight: 900;
-  line-height: 1em;
+  line-height: 2;
 }
 
 .month {
@@ -127,7 +127,8 @@ td {
 .ring-right {
   position: absolute;
   /* top: 285px; */
-  bottom: 17em;
+  bottom: 17em; // for 4 weeeks months
+  bottom: 20em; // for 5 weeeks months
 }
 
 .ring-left {
@@ -161,4 +162,9 @@ td {
 
 .medium-text {
   font-size: 0.7em;
+}
+
+//  superscript text
+sup {
+  font-size: x-large;
 }
