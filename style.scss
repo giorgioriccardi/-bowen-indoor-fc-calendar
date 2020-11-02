@@ -51,6 +51,7 @@ td {
 .container {
   display: flex;
   flex-direction: column;
+  max-width: 98vw;
 }
 
 .calendar-container,
@@ -100,7 +101,8 @@ td {
   box-shadow: 0 2px 1px rgba(0, 0, 0, 0.2), 0 3px 1px #fff;
   color: #555;
   display: inline-block;
-  padding: 1.9em;
+  padding: 1.9em 0;
+  max-width: 98vw;
 }
 
 .calendar thead {
@@ -110,7 +112,8 @@ td {
 }
 
 .calendar td {
-  padding: 0.5em 1em;
+  // padding: 0.5em 1em;
+  padding: 0.5em 0.7em;
   text-align: center;
 }
 
