@@ -212,4 +212,12 @@ sup {
   content: "✕";
   color: #e66b6b;
 }
+
+.zz {
+  color: #cccccc;
+}
+.zz:before {
+  content: "?";
+  color: #e66b6b;
+}
 /*# sourceMappingURL=style.css.map */

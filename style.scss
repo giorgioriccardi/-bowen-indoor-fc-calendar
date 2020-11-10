@@ -224,3 +224,13 @@ sup {
     color: $color-salmon;
   }
 }
+
+//
+.zz {
+  color: $color-lightgray;
+
+  &:before {
+    content: "\003F"; // X
+    color: $color-salmon;
+  }
+}
